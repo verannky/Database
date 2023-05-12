@@ -1,0 +1,32 @@
+INSERT INTO progress (student_id, week, project_status_modul, project_status_chapter, project_status_page, project_status_note, mentor_name, report_date)
+VALUES (1, '27/06/2020', 'Essential-1', '1 dan 2', null, 'Essential brief, tugas garis gunung dibawa pulang', 'Steven', '2020-06-27'),
+(1, '29/06/2020', 'Essential-1', '2 dan 3', null, 'Timeless brief', 'Steven', '2020-06-27'),
+(1, '30/06/2020', 'Essential-1', 4, null, 'Timeless with theme, tugas dibawa pulang', 'Steven', '2020-06-27'),
+(1, '01/07/2020', 'Essential-1', 4, null, 'lanjut timeless', 'Steven', '2020-06-27'),
+(1, '02/07/2020', 'Essential-1', 4, null, 'Timeless makanan selesai, lanjut chapter 5', 'Steven', '2020-06-27'),
+(1, '04/07/2020', 'Essential-1', 3, null, 'Imagination brief', 'Steven', '2020-06-27'),
+(1, '06/07/2020', 'Essential-1', 5, null, 'selesaikan imagination', 'Steven', '2020-06-27'),
+(1, '07/07/2020', 'Essential-1', 6, null, 'Accuracy brief', 'Steven', '2020-06-27'),
+(1, '10/07/2020', 'Essential-1', 6, null, 'Lanjut akurasi kucing', 'Steven', '2020-06-27'),
+(1, '18/07/2020', 'Essential-1', 6, null, 'Tugas kucing dibawa pulang', 'Steven', '2020-06-27'),
+(1, '01/08/2020', 'Essential-1', '7', null, 'Tugas muka dibawa pulang', 'Erika', '2020-06-27'),
+(1, '08/08/2020', 'Essential-1', '7-8', 4, 'Tugas selesai dengan baik, lanjut chapter', 'RAP', '2020-06-27'),
+(1, '29/08/2020', 'Essential-1', 11, null, 'Masterpiece kotak kedua, anaknya bagus kerjanya, kering telat', 'RAP', '2020-06-27'),
+(1, '05/09/2020', 'Essential-1', 11, null, 'Lanjut kotak ke-5, hari ini telat', 'RAP', '2020-06-27'),
+(2, '06/02/2020', 'Essential-1', '1 dan 2', null, 'pengenalan, masuk ch 2 beres', 'Kariim Saad', '2020-02-07'),
+(2, '13/02/2020', 'Essential-1', 3, null, 'masuk ch 3, tracing selesai, labirin jadi pr', 'Kariim Saad', '2020-02-20'),
+(2, '20/02/2020', 'Essential-1', '3 dan 4', null, 'ch 3 beres, masuk ch 4 jadi pr', 'Memed', '2020-02-07'),
+(2, '27/02/2020', 'Essential-1', '4 dan 5', null, 'ch 4 beres, masuk ch 5 jadi pr', 'Memed', '2020-02-07'),
+(2, '05/03/2020', 'Essential-1', 5, null, 'masuk ch 6, baru sampai kucing 1 di map', 'Memed', '2020-03-13'),
+(2, '12/03/2020', 'Essential-1', 6, null, 'Lanjut ch 6, kucing 1 beres, mulai ngerjain kucing 2 di map', 'Memed', '2020-03-13'),
+(2, '19/03/2020', 'Essential-1', 6, null, 'Membuat ulang kucing 2 karena hilang, baru mulai aktif lagi', 'Kariim Saad', '2020-03-13'),
+(2, '26/03/2020', 'Essential-1', 7, null, 'bentuk outline sudah bagus, bentuk dalam tangan + hatching perlu revisi', 'Kariim Saad', '2020-03-13'),
+(2, '23/12/2020', 'Essential-1', 8, null, 'Buat grid dan view finder sudah, hanya saja ada kendala printnya', 'Kariim Saad', '2020-12-23'),
+(2, '06/01/2021', 'Essential-1', 11, null, 'Lanjut kotak ke-5, hari ini telat', 'Kariim Saad', '2020-06-27'),
+(2, '10/02/2021', 'Essential-1', 10, null, 'kotak 6', 'Kariim Saad', '2021-02-10'),
+(2, '17/02/2021', 'Essential-1', 10, null, 'kotak 6', 'Kariim Saad', '2021-02-17'),
+(2, '24/02/2021', 'Essential-1', 10, null, 'kotak 7', 'Kariim Saad', '2021-02-24'),
+(2, '03/03/2021', 'Essential-1', 9, null, 'coordinate angle selesai', 'Kariim Saad', '2021-03-03');
+
+SELECT * FROM progress;
+SELECT * FROM data_siswa;
